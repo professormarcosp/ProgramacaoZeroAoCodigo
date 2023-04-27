@@ -1,0 +1,39 @@
+===COMANDOS TERMINAL WINDOWS (CMD)===
+
+gcc --version
+
+gcc seu_arquivo.c -o seu_arquivo.exe
+
+
+===COMANDOS TERMINAL macOS===
+
+*Com o compilador clang:
+
+clang --version
+
+clang seu_codigo.c -o seu_programa
+
+./seu_programa
+
+*Com compilador gcc
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+brew update
+
+brew install gcc
+
+gcc --version
+
+
+===COMANDOS TERMINAL LINUX UBUNTU===
+
+cd 'Área de Trabalho'/
+
+gcc --version
+
+nano olamundo.c
+
+gcc olamundo.c -o olamundo
+
+./olamundo
