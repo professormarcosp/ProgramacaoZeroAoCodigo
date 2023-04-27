@@ -1,0 +1,19 @@
+Professor Marcos Pacheco
+Curso Aprendendo Programação do Zero ao Código com a Linguagem C
+Como compilar um programa escrito em linguagem C no terminal do macOS
+professormarcosp@gmail.com
+
+===COMANDOS TERMINAL LINUX UBUNTU===
+
+ls
+
+cd 'Área de Trabalho'/
+
+gcc --version
+
+nano olamundo.c
+
+gcc olamundo.c -o olamundo
+
+./olamundo
+
