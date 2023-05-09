@@ -7,10 +7,11 @@ professormarcosp@gmail.com
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main()
 {
 	system("clear");
-	printf("\n\t\"Exercício Sobre Caracteres? de Escape\"");
+	printf("\n\n\n\t\t\t\"Como colocar Apóstrofo \' Aspas duplas \" e Barra invertida \\ na tela?\"");
 	printf("\n\tPressione qualquer tecla para continuar...\n");
 	getchar();
 	
