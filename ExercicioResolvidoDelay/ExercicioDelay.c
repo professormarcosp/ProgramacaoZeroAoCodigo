@@ -1,6 +1,9 @@
-//Professor Marcos Pacheco
-//professormarcosp@gmail.com
-//Curso: Aprendendo Programação do Zero ao Código com a Linguagem C 
+/*Professor Marcos Pacheco
+Curso: Aprendendo Programação do Zero ao Código com a Linguagem C
+Meus cursos em: https://www.udemy.com/user/marcostim/
+https://linkedin.com/in/professor-marcos-pacheco/
+professormarcosp@gmail.com
+*/
 
 /*Crie um programa em C, que coloque na tela o número 1234
 e depois e 4 segundos retroceda 4 caracteres com 4  \b 
