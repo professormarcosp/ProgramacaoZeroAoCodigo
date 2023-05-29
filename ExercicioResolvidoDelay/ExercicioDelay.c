@@ -5,7 +5,7 @@ https://linkedin.com/in/professor-marcos-pacheco/
 professormarcosp@gmail.com
 */
 
-/*Crie um programa em C, que coloque na tela o número 1234
+/*Crie um programa em C no Windows, que coloque na tela o número 1234
 e depois e 4 segundos retroceda 4 caracteres com 4  \b 
 e em seguida espere 4 segundos e escreva 4 caracteres 
 espaços para apagar da tela o número 1234*/
