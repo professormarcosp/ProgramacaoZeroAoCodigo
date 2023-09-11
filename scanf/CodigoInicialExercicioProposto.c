@@ -7,11 +7,12 @@ Meus cursos em: https://www.udemy.com/user/marcostim/
 #include <stdio.h>
 
 int main() {
-    int valor1 = 5;
-    int valor2 = 7;
-    int resultado = valor1 + valor2;
+    int numero1 = 5;
+    int numero2 = 7;
+    int soma = numero1 + numero2;
 
-    printf("A soma de %d e %d é %d\n", valor1, valor2, resultado);
+    printf("A soma de %d e %d é %d\n", numero1, numero2, soma);
 
     return 0;
 }
+
