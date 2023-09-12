@@ -8,12 +8,16 @@ Meus cursos em: https://www.udemy.com/user/marcostim/
 int main()
 {
    char nome[50];
+   char sexo;
    int idade;
    float salario;
 
    printf("Digite seu nome: ");
    scanf("%s", nome);
    //string não colocar & na frente do nome da variavel!
+
+   printf("Digite seu sexo: ");
+   scanf("%c", &sexo);
 
    printf("Digite sua idade: ");
    scanf("%d", &idade);
