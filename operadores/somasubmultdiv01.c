@@ -20,10 +20,10 @@ int main()
    multiplicacao = num1 * num2;
    divisao = num1 / num2;
 
-   printf("\n%2.f + %.2f = %.2f", num1, num2, soma);
-   printf("\n%2.f - %.2f = %.2f", num1, num2, subtracao);
-   printf("\n%2.f x %.2f = %.2f", num1, num2, multiplicacao);
-   printf("\n%2.f / %.2f = %.2f", num1, num2, divisao);
+   printf("\n%.2f + %.2f = %.2f", num1, num2, soma);
+   printf("\n%.2f - %.2f = %.2f", num1, num2, subtracao);
+   printf("\n%.2f x %.2f = %.2f", num1, num2, multiplicacao);
+   printf("\n%.2f / %.2f = %.2f", num1, num2, divisao);
 
    return 0;
 }
