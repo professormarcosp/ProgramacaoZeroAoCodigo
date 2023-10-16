@@ -14,10 +14,10 @@ int main()
    printf("\nDigite o primeiro numero: "); scanf("%f", &num1);
    printf("\nDigite o segundo numero: "); scanf("%f", &num2);
 
-   printf("\n%2.f + %.2f = %.2f", num1, num2, (num1 + num2));
-   printf("\n%2.f - %.2f = %.2f", num1, num2, (num1 - num2));
-   printf("\n%2.f x %.2f = %.2f", num1, num2, (num1 * num2));
-   printf("\n%2.f / %.2f = %.2f", num1, num2, (num1 / num2));
+   printf("\n%.2f + %.2f = %.2f", num1, num2, (num1 + num2));
+   printf("\n%.2f - %.2f = %.2f", num1, num2, (num1 - num2));
+   printf("\n%.2f x %.2f = %.2f", num1, num2, (num1 * num2));
+   printf("\n%.2f / %.2f = %.2f", num1, num2, (num1 / num2));
 
    return 0;
 }
