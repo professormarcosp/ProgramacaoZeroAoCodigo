@@ -11,7 +11,7 @@ int main()
 {
    int b = 20;
 
-   a -= 8; // o mesmo que:
+   b -= 8; // o mesmo que:
    //b = b - 8; b -= 8;
 
    printf("O valor de b eh: %d\n", b);
