@@ -11,7 +11,7 @@ Meus cursos em: https://www.udemy.com/user/marcostim/
 int main()
 {
    printf("Esperando por 5 Segundos...\n");
-   Sleep(5);
+   sleep(5);
    printf("Continuando a execução do programa. \n");
   
 
