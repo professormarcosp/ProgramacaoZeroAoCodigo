@@ -11,6 +11,6 @@ int main()
   int a = 5;
   int b = 10;
   int soma = a + b;
-  printf ("Soma: %d\n, soma);
+  printf ("Soma: %d\n", soma);
   return 0;
 }
