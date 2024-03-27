@@ -11,7 +11,7 @@ int main()
 {
    int d = 50;
 
-   d /= 10; // o mesmo que: d = d / 50; d /= 50;
+   d /= 10; // o mesmo que: d = d / 10; d /= 10;
 
    printf("O valor de d eh: %d\n", d);
 
