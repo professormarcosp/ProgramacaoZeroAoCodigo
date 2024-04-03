@@ -4,6 +4,12 @@ Aprendendo Programação do Zero ao Código com a Linguagem C
 Meus cursos em: https://www.udemy.com/user/marcostim/
 */
 
+/*Professor Marcos Pacheco
+professormarcosp@gmail.com
+Aprendendo Programação do Zero ao Código com a Linguagem C
+Meus cursos em: https://www.udemy.com/user/marcostim/
+*/
+
 #include <stdio.h>
 
 
@@ -11,15 +17,20 @@ int main()
 {
    int numero;
 
-   printf("\nDigite um numero: ");
+   printf("Digite um numero: ");
    scanf("%d", &numero);
 
-   printf("%s\n", (numero == 10) ? "O Numero eh igual a 10" : "O numero eh diferente de 10");
+   //numero (10) então numero == 10 é true fica
+   //!(true) ? :
+   //logo not ! true dará false
+   //assim irá para tela numero igual a 10
+   
+   //numero (11) então numero == 11 é false fica
+   //!(false) ? :
+   //logo not ! false dará true
+   //assim irá para tela numero diferente de 10
+   printf("\n%s", !(numero == 10) ? "O numero eh diferente de 10" : "O  numero eh igual a 10");
 
    return 0;
 }
-/*
-Crie um programa em linguagem C que solicita um número do usuário e verifica se ele não é igual a 10. 
-Utilize o operador lógico NOT para realizar essa verificação e imprima "O número é diferente de 10" 
-se a condição for verdadeira, caso contrário, imprima "O número é igual a 10". Use o operador ternário ? 
-*/
+
