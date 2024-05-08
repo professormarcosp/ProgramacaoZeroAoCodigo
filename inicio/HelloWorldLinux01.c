@@ -12,7 +12,7 @@ int main()
 {
   
   printf("Primeiro Programa\n");
-  printf("Pressione Qualquer Tecla para Continuar\n")
+  printf("Pressione Qualquer Tecla para Continuar\n");
   getchar();
 
   return 0;
