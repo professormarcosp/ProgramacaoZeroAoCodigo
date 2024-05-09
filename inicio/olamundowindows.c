@@ -16,8 +16,8 @@ int main()
 {
 
    setlocale(LC_ALL, "");
-	printf("Olá Mundo!");
-
-	system("PAUSE > nul");
-	return 0;
+   printf("Olá Mundo!");
+   
+   system("PAUSE > nul");
+   return 0;
 }
