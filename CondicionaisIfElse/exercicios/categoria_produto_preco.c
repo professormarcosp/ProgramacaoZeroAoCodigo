@@ -12,7 +12,7 @@ int main()
 {
     float preco;
     
-    printf("\nDigite o preço do produto: ");
+    printf("\nDigite o preco do produto: ");
     scanf("%f", &preco);
 
     if (preco < 50) 
