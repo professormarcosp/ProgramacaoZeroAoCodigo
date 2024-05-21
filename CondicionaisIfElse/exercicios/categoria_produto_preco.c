@@ -12,20 +12,20 @@ int main()
 {
     float preco;
     
-    printf("Digite o preço do produto: ");
+    printf("\nDigite o preço do produto: ");
     scanf("%f", &preco);
 
     if (preco < 50) 
     {
-      printf("Barato\n");
+      printf("\nBarato\n");
     } 
     else if (preco >= 50 && preco <= 100) 
     {
-      printf("Médio\n");
+      printf("\nMedio\n");
     } 
     else 
     {
-        printf("Caro\n");
+        printf("\nCaro\n");
     }
     
     return 0;
