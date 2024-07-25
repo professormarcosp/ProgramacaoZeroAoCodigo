@@ -41,7 +41,7 @@ int main()
                //usar chaves { } no if e else!!!
                printf("\nResultado: %.2f", num1 / num2);
             else
-               printf("\Erro: Divisao por zero nao permitida!");
+               printf("\nErro: Divisao por zero nao permitida!");
             break;
 
       default:
