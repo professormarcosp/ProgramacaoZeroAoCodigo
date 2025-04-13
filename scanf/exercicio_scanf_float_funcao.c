@@ -6,7 +6,8 @@ Meus cursos em: https://www.udemy.com/user/marcostim/
 
 #include <stdio.h>
 
-float converta_celsius_fahrenheit(int temperatura_celsius);
+//Corrigido tipo de int para float vide aula na Udemy anterior a esta
+float converta_celsius_fahrenheit(float temperatura_celsius);
 
 int main()
 {
@@ -25,7 +26,8 @@ int main()
    return 0;
 }
 
-float converta_celsius_fahrenheit(int temperatura_celsius)
+//Corrigido tipo de int para float vide aula na Udemy anterior a esta
+float converta_celsius_fahrenheit(foat temperatura_celsius)
 {
    return (temperatura_celsius * 1.8) + 32;
 }
