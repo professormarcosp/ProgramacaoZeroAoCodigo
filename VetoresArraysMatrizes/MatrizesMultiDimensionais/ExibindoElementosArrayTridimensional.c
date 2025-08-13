@@ -71,7 +71,7 @@ int main()
     printf("\nElemento 6: Triplas [2][2[2]] = %d", triplas[2][2][2]);
     printf("\n-> Profundidade: 2 (terceiro array)");
     printf("\n-> Linha 2");
-    printf("\n-> Coluna: 0");
+    printf("\n-> Coluna: 2");
 
     return 0;
 }
